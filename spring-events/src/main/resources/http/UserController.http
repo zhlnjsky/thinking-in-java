@@ -1,0 +1,22 @@
+POST http://localhost:8080/users/addUser
+Content-Type: application/json
+
+{
+  "name": "张三",
+  "addressList": [
+    {
+      "province": "江苏省",
+      "city": "南京市",
+      "region": "鼓楼区"
+    },
+    {
+      "province": "江苏省",
+      "city": "盐城市",
+      "region": "滨海县"
+    }
+  ]
+}
+
+###
+
+
